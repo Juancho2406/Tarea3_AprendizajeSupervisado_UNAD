@@ -1,17 +1,46 @@
-# Modelos de Aprendizaje Supervisado - UNAD
+Tarea 3 - Algoritmos de Aprendizaje Supervisado (UNAD)
 
-Este repositorio contiene el desarrollo de la Tarea 3 del curso de Análisis de Datos, enfocada en la implementación de diferentes modelos de aprendizaje supervisado.
+Este repositorio contiene el desarrollo completo de la Tarea 3 del curso Análisis de Datos de la Universidad Nacional Abierta y a Distancia (UNAD). El objetivo principal de esta actividad es aplicar modelos de aprendizaje automático supervisado a distintos conjuntos de datos reales, utilizando Python y Jupyter Notebooks.
 
-## Contenido
+🎯 Objetivo del proyecto
 
-- `regresion_lineal_vehicle.ipynb`: Implementación de regresión lineal para predicción de características de vehículos
-- `regresion_logistica_heart.ipynb`: Modelo de regresión logística para predicción de enfermedades cardíacas
-- `arbol_decision_wine.ipynb`: Clasificación de vinos utilizando árboles de decisión
-- `/img`: Directorio con visualizaciones y gráficos del análisis exploratorio de datos
+Aplicar algoritmos de Machine Learning supervisado —regresión lineal, regresión logística y árboles de decisión— para resolver problemas de predicción y clasificación. Se incluyen análisis exploratorios, procesos de preprocesamiento, entrenamiento, evaluación y visualización de resultados.
 
-## Requisitos
+📁 Contenido del repositorio
 
-Las dependencias necesarias se encuentran en el archivo `requirements.txt`. Para instalarlas:
+├── regresion_lineal_vehicle.ipynb        # Predicción de precio de autos usados
+├── regresion_logistica_heart.ipynb       # Clasificación de enfermedades cardíacas
+├── arbol_decision_wine.ipynb             # Clasificación de la calidad del vino
+├── requirements.txt                      # Librerías necesarias
+├── README.md                             # Descripción del proyecto
+└── img/                                  # Gráficas generadas durante el EDA y evaluación
 
-```bash
-pip install -r requirements.txt
+ Datasets utilizados
+	•	Vehicle Dataset
+Fuente: Kaggle – Vehicle Dataset from CarDekho
+Objetivo: Predecir el precio de venta de vehículos.
+	•	Heart Disease Dataset (Cleveland UCI)
+Fuente: Kaggle – Heart Disease Cleveland UCI
+Objetivo: Clasificar la presencia o ausencia de enfermedad cardíaca.
+	•	Red Wine Quality Dataset
+Fuente: Kaggle – Red Wine Quality
+Objetivo: Clasificar la calidad del vino tinto.
+
+🧪 Tecnologías utilizadas
+	•	Python 3.x
+	•	Jupyter Notebooks
+	•	Pandas, Numpy
+	•	Matplotlib, Seaborn
+	•	Scikit-learn
+
+📈 Resultados esperados
+	•	Visualización de correlaciones y valores atípicos.
+	•	Implementación correcta de los modelos supervisados.
+	•	Evaluación del rendimiento con métricas como R², Accuracy, Recall, F1-score y curva ROC.
+	•	Documentación clara y replicable para propósitos académicos.
+
+👨‍💻 Autor
+
+Juan Saavedra
+Estudiante de Ingeniería en la UNAD
+[https://github.com/Juancho2406/]
